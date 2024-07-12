@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Conclave.in - Web3 Decentralized Conferencing App
 
-## Getting Started
+Welcome to our Web3 Decentralized Conferencing App! This project aims to create a more secure and privacy-focused alternative to conventional conferencing solutions like Google Meet and Zoom.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Decentralized Architecture:** Leveraging the power of Web3 to ensure data privacy and security.
+- **Secure Communication:** End-to-end encryption for all communications.
+- **User-Friendly Interface:** Built with modern UI components to ensure a smooth user experience.
+- **Open Source:** Contribute and be part of the development process.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js:** The primary framework for building our server-rendered React applications.
+- **React.js:** For creating a dynamic and responsive user interface.
+- **PostgreSQL:** Backend database for reliable data storage and management.
+- **TypeScript:** Ensuring robust and error-free code, particularly in our Next.js components.
+- **Shadcn UI Library:** Utilizing a modern and aesthetic UI library for a polished look.
+- **Acentracity:** Enhancing the decentralized nature of our application.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+1. Clone the repository:
 
-To learn more about Next.js, take a look at the following resources:
+   ```sh
+   git clone https://github.com/yourusername/web3-decentralized-conferencing-app.git
+   cd web3-decentralized-conferencing-app
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Install dependencies:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```sh
+   npm install
+   ```
 
-## Deploy on Vercel
+3. Set up the database:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```sh
+   // Add database setup instructions here
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. Run the application:
+   ```sh
+   npm run dev
+   ```
+
+## Contributing
+
+We welcome contributions from the community! Here are some ways you can help:
+
+- Report bugs and issues
+- Suggest new features
+- Submit pull requests
+
+Please read our [contribution guidelines](CONTRIBUTING.md) for more information.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). This means it is open source and available for anyone to use, modify, and distribute.
+
+---
+
+Join us in creating a better, more secure conferencing solution for everyone. Let's build something great together!
